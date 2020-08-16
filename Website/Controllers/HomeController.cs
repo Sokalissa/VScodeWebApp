@@ -20,6 +20,7 @@ namespace Website.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.message = "Index";
             return View();
         }
 
